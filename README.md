@@ -1,11 +1,10 @@
-#initialize fotu vmm logger:
+# initialize fotu vmm logger:
 ```java
 new LoggerConfig.Loader.PropertiesLoaderImpl(configPath).load();
 ```
-#logger configuration file name: 
+# logger configuration file name: 
 vmmLogger.properties
-
-#vmmLogger.properties
+# vmmLogger.properties
 ```
 debugEnabled=true
 loggerClassName=ru.cbr.fotu.vmm.Logger$LoggerImpl
