@@ -9,7 +9,7 @@ vmmLogger.properties
 debugEnabled=true
 loggerClassName=ru.cbr.fotu.vmm.Logger$LoggerImpl
 ```
-# sample of initialize fotu vmm clinet:
+# sample of initialize fotu vmm client:
 ```java
 VmmStore vmmClient = new VmmStore(
 			new VmmServiceSetup.Local(
