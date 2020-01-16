@@ -18,7 +18,7 @@ VmmStore vmmClient = new VmmStore(
 # sample of usage fotu vmm api:
 ```java
 Optional<VmmObject.User> user = vmmClient.findUserByLogin("danj");
-if (user.isPresent()) {
+if (user.isPresent()) 
 	vmmClient.getUserGroupMembership(user.get()); 
 ```
 # fotu vmm api methods: 
