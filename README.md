@@ -4,6 +4,7 @@ new LoggerConfig.Loader.PropertiesLoaderImpl(configPath).load();
 ```
 #logger configuration file name: 
 vmmLogger.properties
+
 #vmmLogger.properties
 ```
 debugEnabled=true
@@ -12,8 +13,8 @@ loggerClassName=ru.cbr.fotu.vmm.Logger$LoggerImpl
 # sample of initialize fotu vmm clinet:
 ```java
 VmmStore vmmClient = new VmmStore(
-								new VmmServiceSetup.Local(
-									  new VmmUserCredential.SvcVmmReader()).setup());
+			new VmmServiceSetup.Local(
+				new VmmUserCredential.SvcVmmReader()).setup());
 ```
 # sample of usage fotu vmm api:
 ```java
